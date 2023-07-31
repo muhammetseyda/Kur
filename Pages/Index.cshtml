@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>TCMB'den USD ve EURO verilerini her bir dakika da bir veri tabanına kaydetmeye başlamak için butonuna tıklayınız. '</p>
+    <form method="get" action="/Home/Index">
+        <button type="submit">BAŞLA</button>
+    </form>
+</div>
